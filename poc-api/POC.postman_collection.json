@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/register",
+					"raw": "http://127.0.0.1:5000/users",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -31,7 +31,7 @@
 					],
 					"port": "5000",
 					"path": [
-						"register"
+						"users"
 					]
 				}
 			},
@@ -43,7 +43,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/records",
+					"raw": "http://127.0.0.1:5000/users",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -53,7 +53,7 @@
 					],
 					"port": "5000",
 					"path": [
-						"records"
+						"users"
 					]
 				}
 			},
@@ -65,7 +65,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/registration/1",
+					"raw": "http://127.0.0.1:5000/users/2",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -75,8 +75,8 @@
 					],
 					"port": "5000",
 					"path": [
-						"registration",
-						"1"
+						"users",
+						"2"
 					]
 				}
 			},
@@ -97,7 +97,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/update-registration/0",
+					"raw": "http://127.0.0.1:5000/users/0",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -107,7 +107,7 @@
 					],
 					"port": "5000",
 					"path": [
-						"update-registration",
+						"users",
 						"0"
 					]
 				}
@@ -120,7 +120,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/delete-registration/2",
+					"raw": "http://127.0.0.1:5000/users/1",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -130,8 +130,8 @@
 					],
 					"port": "5000",
 					"path": [
-						"delete-registration",
-						"2"
+						"users",
+						"1"
 					]
 				}
 			},
